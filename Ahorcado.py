@@ -8,7 +8,6 @@ guiones=nodeguiones(palabra)
 print (guiones)
 q=1
 jugar="si"
-mun=["(°°) \n"+"/"+" | "+"\ \n"+ "   |\n"+ " /"+" \ "]
 print (mun)
 print ("Bienvenido: escoja las letras que cree que le pertenecen a la palabra e ingreselas.")
 while jugar=="si":

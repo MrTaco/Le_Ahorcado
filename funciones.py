@@ -12,5 +12,6 @@ def encuentraletras(opc, guiones,palabra):
 			return encontrado=True
 
 def muneco(mun,q):
+	mun=["(°°) \n"+"/"+" | "+"\ \n"+ "   |\n"+ " /"+" \ "]
 	for i in q:
 		return muneco[i+1]
