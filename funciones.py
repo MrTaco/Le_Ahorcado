@@ -4,14 +4,15 @@ def nodeguiones (palabra):
 		guiones.append("_")
 	return guiones
 
-def encuentraletras(opc, guiones,palabra):
-	encontrado=False
+def encuentraletras(opc, guiones,palabra,encontrado):
 	for i in range (len(palabra)):
-		if palabra[i]==opc:
+		if list(palabra[i])==opc:
+			encontrado=True
 			return guiones[i].append(opc)
-			return encontrado=True
+			return encontrado
+	return encontrado
 
-def muneco(mun,q):
-	mun=["(°°) \n"+"/"+" | "+"\ \n"+ "   |\n"+ " /"+" \ "]
-	for i in q:
-		return muneco[i+1]
+def muneco(contar):
+	mun=["(*.*) \n"+"/"+" | "+"\ \n"+ "  |\n"+ " /"+" \ "]
+	for i in range(contar):
+		return mun[i]
